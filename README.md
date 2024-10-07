@@ -1,6 +1,6 @@
 # Project Setup Guide
 
-##How to use this tool ?
+## How to use this tool ?
 1. Open the WhatsApp chat you want to process.
 2. Click on the three-dot menu in the chat window.
 3. Select More from the dropdown.
