@@ -32,6 +32,16 @@ def convert_chat_to_clean_json(chat_content):
 def main():
     st.title("WhatsApp Chat Converter")
     
+    st.subheader("How to use this tool?")
+    instructions = (
+        "1. Open the WhatsApp chat you want to process.\n"
+        "2. Click on the three-dot menu in the chat window.\n"
+        "3. Select 'More' from the dropdown.\n"
+        "4. Choose 'Export Chat' and download the .txt file.\n"
+        "5. Upload the downloaded file on this website to receive the JSON-formatted output."
+    )
+    st.write(instructions)
+
     chat_file = st.file_uploader("Upload your WhatsApp Chat (.txt)", type=["txt"])
     
     if chat_file is not None:
